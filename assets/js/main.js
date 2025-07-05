@@ -13,3 +13,7 @@ document.addEventListener('DOMContentLoaded', function () {
     var elemsSidenav = document.querySelectorAll('.sidenav');
     M.Sidenav.init(elemsSidenav);
 });
+document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.collapsible');
+    var instances = M.Collapsible.init(elems, {});
+});
