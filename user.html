@@ -92,7 +92,7 @@
         <div class="col l2 hide-on-med-and-down"></div>
     </section>
 
-    <section class="user_list_section">
+    <section class="user_list_section" x-init="getUsers()">
         <ul class="collapsible">
             <ul class="collapsible hide-on-med-and-up">
                 <li class="users_list_item">
@@ -276,12 +276,9 @@
 
         </div>
     </div>
-
-    <section id="test-section" class="grey" x-data="{ message: 'I Live Alpine' }" x-text="message"></section>
     <!-- content section ---------end------- -->
 
-    <script defer src="/assets/js/alpine.is"></script>
+    <h6>THE WORLD IS YOURS</h6>
     <script src="/assets/materialize/js/materialize.min.js"></script>
     <script src="/assets/js/main.js"></script>
-    <script src="/assets/js/app.js"></script>
 </body>
